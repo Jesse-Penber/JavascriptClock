@@ -1,0 +1,47 @@
+html {
+	height: 100%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+} /* Makes the .main div have 0 padding */
+
+body {
+	background-image: url("patternbig.jpg");
+	height: 100%;
+	background-position: center;
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+.main {
+	background: #90EE90;
+	width: 400px;
+	margin: 100px auto; /* centers it on x axis, makes it 100 down on y axis */
+	height: 200px; 
+	position: relative;
+	padding: 30px;
+}
+
+.badge {
+	background: #ffffe0;
+	font-family: serif;
+	font-weight: bold;
+	padding: 5px;
+	width: 100px;
+	position: absolute; /* starts from top left corner of main div, since main div is position: relative */
+	left: 40%;
+	top: -15px;
+	text-align: center;
+	
+}
+
+.clock {
+	background: #e0e0ff;
+	text-align: center;
+	font-size: 60px;
+	height: 100%; /* makes it span 100% of main div */
+	padding-top: 28px;
+}
